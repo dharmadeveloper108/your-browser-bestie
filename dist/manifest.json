@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Your Browser Bestie 👹",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "action": {
+      "default_icon": "bestie.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage",
+        "notifications",
+        "alarms"
+    ]
+  }
+  
